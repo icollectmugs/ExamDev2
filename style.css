@@ -1,0 +1,247 @@
+/* navigation */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 60px;
+    background-color: whitesmoke;
+    z-index: 100;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    margin: 14px 30px 0px;
+}
+
+.title{
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    padding: 0;
+    margin: 14px 30px 0px;
+    color:rgb(33, 45, 64);
+    font-family:'Raleway', sans-serif;
+}
+
+a{
+    color:rgb(33, 45, 64);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* jumbotron */
+#jumbotron {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 20px;
+    text-align: center;
+    background-image: url('./assets/jumbotron-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.jumbotron-title {
+    color: rgb(33, 45, 64);
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight:bolder;
+    text-align: left;
+}
+
+span {
+    color: blue;
+}
+
+.jumbotron-text {
+    color: rgb(33, 45, 64);
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(33, 45, 64);
+}
+
+
+main{
+    margin-top: 60px;
+}
+
+/* you may add other styles */
+.jumbotron-img {
+    height: 400px;
+}
+
+.mini-text-flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mini-text {
+    color: rgb(33, 45, 64);
+    text-align: left;
+    margin-right: 5px;
+}
+
+.main-content{
+    display: flex;
+
+}
+
+/* Aside */
+aside {
+    max-width: 25%;
+    max-height: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.aside-title {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-top: 5px solid rgb(38, 70, 83);
+    border-radius: 5px;
+}
+
+.profile-picture {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+/* TOGGLE */
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Article */
+.content {
+    margin-left: 10%;
+    max-width: 65%;
+}
+
+article {
+    max-width: 100%;
+}
+
+.article-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0 30px;
+}
+
+.item-video {
+    margin-bottom: 50px;
+}
+
+/* Everything that defines your project */
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.project {
+    margin: 20px 30px;
+    border-bottom: 10px solid rgb(38, 70, 83);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+    width: 400px;
+}
+
+.project-title {
+    color: black;
+    font-weight: bold;
+}
+
+.changingFont {
+    font-family: "Dancing Script", cursive;
+}
+
+/* footer */
+footer{
+    background-color: rgb(33, 45, 64);
+}
+
+.center-footer{
+    margin: 0 20px;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-top{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+
+.info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram-square,
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-envelope{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
